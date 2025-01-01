@@ -92,3 +92,5 @@ So, in short: **Jenkins needs Java to function** because Java is the programming
 
 ---
 
+![Output](https://i.imgur.com/KU5U3Eu.png)
+![Output](https://i.imgur.com/bbSFAzS.png)
