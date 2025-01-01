@@ -1,0 +1,29 @@
+pipeline {
+    agent any  // This tells Jenkins to run the pipeline on any available machine
+
+    stages {
+        stage('Checkout') {  // Stage to checkout (pull) the code from the repository
+            steps {
+                echo 'Hello, I am checking out the code!'  // Simulate checking out the code
+            }
+        }
+
+        stage('Build') {  // Stage to build the code
+            steps {
+                bat 'echo Hello, I am building the code!'  // Use `bat` to run commands on Windows
+            }
+        }
+
+        stage('Test') {  // Stage to run tests
+            steps {
+                bat 'echo Hello, I am running the tests!'  // Use `bat` for Windows
+            }
+        }
+
+        stage('Deploy') {  // Stage to deploy the code
+            steps {
+                bat 'echo Hello, I am deploying the code!'  // Use `bat` for Windows
+            }
+        }
+    }
+}
