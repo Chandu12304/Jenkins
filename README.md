@@ -1,5 +1,7 @@
 # Jenkins
 
+![jen](https://i.imgur.com/Go14umh.jpeg)
+
 ### Developing an App
 1. **Writing Code (Developer → Code Repo - GitHub)**: 
    - A developer writes the code for the app. This code is then stored in a code repository, like **GitHub**. GitHub is like a cloud-based storage for your code, where you can track changes, collaborate with others, and maintain different versions of the code.
@@ -41,6 +43,8 @@ So, Jenkins automates everything, allowing developers to focus on writing code w
 
 A **pipeline** in software development is an automated series of steps that are followed to take code from development to production. Each step in the pipeline involves specific tasks, such as building, testing, and deploying the code.
 
+![jen](https://i.imgur.com/VjFsBJD.jpeg)
+
 ---
 
 CI/CD stands for **Continuous Integration** and **Continuous Deployment** (or **Continuous Delivery**). It's a set of practices used by software developers to automate the process of building, testing, and deploying software. Here's a breakdown:
@@ -52,6 +56,8 @@ CI/CD stands for **Continuous Integration** and **Continuous Deployment** (or **
 3. **Continuous Deployment (CD)**: This takes CD a step further. Instead of just preparing the code for deployment, it's automatically deployed to the production environment without manual intervention.
 
 In short, CI/CD helps developers work faster and with more confidence by automating the process of testing and deploying code.
+
+![jen](https://i.imgur.com/myIU8lG.jpeg)
 
 ---
 
